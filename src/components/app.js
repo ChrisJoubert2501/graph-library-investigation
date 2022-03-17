@@ -115,6 +115,53 @@ const App = () => {
       <VisJSGraph />
       <br /> <br />
       <br /> <br />
+      <div className="customHeading1">Other Libaries (Briefly considered)</div>
+      <div id="container">
+        <div className="list1">
+          <ul>
+            <li>
+              <a href="https://d3js.org/">D3.js</a>: No auto layouts for graphs
+              <br />(
+              <a href="https://danielcaldas.github.io/react-d3-graph/docs/">
+                react-d3-graph
+              </a>
+              )
+            </li>
+            <li>
+              <a href="https://www.sigmajs.org/">Sigma.js</a>: Meant for larger
+              graphs, WebGL <br /> (
+              <a href="https://www.npmjs.com/package/react-sigma">
+                react-sigma
+              </a>
+              )
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="customHeading1">Other Libaries (Not considered)</div>
+      <div id="container">
+        <div className="list1">
+          <ul>
+            <li>
+              <a href="https://github.com/anvaka/VivaGraphJS">VivaGraphJS</a>
+            </li>
+            <li>
+              <a href="https://github.com/vasturiano/react-force-graph">
+                react-force-graph
+              </a>
+            </li>
+            <li>
+              <a href="https://g6.antv.vision/en">G6</a>
+            </li>
+            <li>
+              Many other commercial libraries:
+              <br /> GoJS, Keylines, Linkurious, ReGraph, Ogma
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br /> <br />
+      <br /> <br />
     </>
   );
 };
